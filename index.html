@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardápio Digital - Restaurante do Rei</title>
+    <link rel="stylesheet" href="./css/stilo.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-main">
+        <!-- Seção Esquerda: Mensagem de Boas-Vindas -->
+        <div class="header-left">
+          <div class="welcome-msg">
+            <h4>Seja bem-vindo! <br />Aqui oferecemos a melhor comida.</h4>
+          </div>
+        </div>
+
+        <!-- Seção Centro: Logo/Nome -->
+        <div class="header-center">
+          <div class="logo">SABOR REAL</div>
+        </div>
+
+        <!-- Seção Direita: Contatos e Botão -->
+        <div class="header-right">
+          <div class="contact-info">
+            <div class="phone">
+              <strong>☎ (11) 9999-9999</strong>
+            </div>
+            <a
+              href="https://wa.me/5511999999999"
+              target="_blank"
+              class="btn-wpp"
+              >Pedir no WhatsApp</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Carrossel de Slides -->
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="slides-wrapper">
+          <div class="slide slide-1">
+            <img src="./img/pexels-pedrofurtadoo-28992209.jpg" alt="Prato 1" />
+          </div>
+          <div class="slide slide-2">
+            <img src="./img/pexels-rakhmatsuwandi-36982104.jpg" alt="Prato 2" />
+          </div>
+          <div class="slide slide-3">
+            <img
+              src="./img/pexels-mehmetography-2153058108-35589639.jpg"
+              alt="Prato 3"
+            />
+          </div>
+          <div class="slide slide-4">
+            <img src="./img/pexels-pedrofurtadoo-28992209.jpg" alt="Prato 4" />
+          </div>
+        </div>
+
+        <!-- Botões de Navegação -->
+        <button class="carousel-btn prev" aria-label="Slide anterior">
+          ❮ Anterior
+        </button>
+        <button class="carousel-btn next" aria-label="Próximo slide">
+          Próximo ❯
+        </button>
+
+        <!-- Indicadores de Slide -->
+        <div class="carousel-indicators">
+          <span class="indicator active" data-slide="0"></span>
+          <span class="indicator" data-slide="1"></span>
+          <span class="indicator" data-slide="2"></span>
+          <span class="indicator" data-slide="3"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grade de Pratos -->
+    <main class="grid-container">
+      <h2 style="text-align: center; margin-bottom: 30px">Nosso Cardápio</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Prato Executivo</h3>
+          <p>Arroz, feijão, carne e salada.</p>
+          <span>R$ 25,00</span>
+        </div>
+        <div class="card">
+          <h3>Picanha na Chapa</h3>
+          <p>Acompanha batata frita e farofa.</p>
+          <span>R$ 85,00</span>
+        </div>
+        <div class="card">
+          <h3>Suco Natural</h3>
+          <p>Laranja, Limão ou Abacaxi.</p>
+          <span>R$ 10,00</span>
+        </div>
+        <div class="card">
+          <h3>Cerveja Artesanal</h3>
+          <p>Garrafa 600ml bem gelada.</p>
+          <span>R$ 18,00</span>
+        </div>
+        <div class="card">
+          <h3>Cerveja Artesanal</h3>
+          <p>Garrafa 600ml bem gelada.</p>
+          <span>R$ 18,00</span>
+        </div>
+        <div class="card">
+          <h3>Cerveja Artesanal</h3>
+          <p>Garrafa 600ml bem gelada.</p>
+          <span>R$ 18,00</span>
+        </div>
+        <div class="card">
+          <h3>Cerveja Artesanal</h3>
+          <p>Garrafa 600ml bem gelada.</p>
+          <span>R$ 18,00</span>
+        </div>
+        <div class="card">
+          <h3>Cerveja Artesanal</h3>
+          <p>Garrafa 600ml bem gelada.</p>
+          <span>R$ 18,00</span>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 40px">
+        <a href="https://wa.me" target="_blank" class="btn-wpp"
+          >Pedir Agora via WhatsApp</a
+        >
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Restaurante Sabor Real - Todos os direitos reservados.</p>
+      <p>Endereço:</p>
+    </footer>
+
+    <script src="./js/slide.js"></script>
+  </body>
+</html>
